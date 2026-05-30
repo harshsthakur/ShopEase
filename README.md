@@ -164,19 +164,23 @@ npm run dev
 
 ### Homepage
 
-(Add Homepage Screenshot Here)
+<img width="1361" height="632" alt="image" src="https://github.com/user-attachments/assets/1462e997-f136-471b-8917-3e4d0fa59e3a" />
+
 
 ### Product Catalog
 
-(Add Product Catalog Screenshot Here)
+<img width="1362" height="633" alt="image" src="https://github.com/user-attachments/assets/09b443fe-8270-4634-add2-ad716dfe665a" />
+
 
 ### Admin Dashboard
 
-(Add Admin Dashboard Screenshot Here)
+<img width="1365" height="628" alt="image" src="https://github.com/user-attachments/assets/506ca4dc-ef3a-4b68-aeeb-09418fc0ba9d" />
+
 
 ### Festival Countdown Store
 
-(Add Festival Countdown Screenshot Here)
+<img width="1365" height="632" alt="image" src="https://github.com/user-attachments/assets/7da50937-9b05-4197-88db-243e0c6f8341" />
+
 
 ---
 
