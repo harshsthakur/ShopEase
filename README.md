@@ -54,6 +54,7 @@ A modern food-commerce platform focused on premium natural products including Am
 ## 📂 Project Structure
 
 shopease/
+
 ├── frontend/
 
 ├── backend/
