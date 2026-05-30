@@ -55,7 +55,9 @@ A modern food-commerce platform focused on premium natural products including Am
 
 shopease/
 ├── frontend/
+
 ├── backend/
+
 ├── README.md
 
 ## ⚙️ Installation
