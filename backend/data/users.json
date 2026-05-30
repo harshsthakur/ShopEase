@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Demo Admin",
+    "email": "admin@shopease.com",
+    "password": "$2a$10$V5M9wrO0AKzygq8/wWUk0eO6lTwsGEbVZX/2HlMcGhc0k.w1BPDHG",
+    "role": "admin",
+    "wishlist": [],
+    "_id": "pm7hqo3mps4o24i",
+    "createdAt": "2026-05-30T09:07:42.402Z"
+  },
+  {
+    "name": "Harsh",
+    "email": "harsh.sthakur@universal.edu.in",
+    "password": "$2a$10$N9W3PRCEfDIP3gNTJ7X7F.es.MyRjBDEE56ummMO/nLnotFCgsdd.",
+    "role": "admin",
+    "wishlist": [],
+    "_id": "dd18tkqmpsb1c61",
+    "createdAt": "2026-05-30T12:05:59.641Z"
+  },
+  {
+    "name": "choi",
+    "email": "choiensiok@gmail.com",
+    "password": "$2a$10$72B/2lYi2RSgCA9wqQUatur8seFxe.HRlWAqEBuc46jrUiEZdHPSy",
+    "role": "customer",
+    "isVerified": false,
+    "otp": "908598",
+    "otpExpiry": "2026-05-30T12:30:25.677Z",
+    "wishlist": [],
+    "_id": "r4v2nvfmpsbjwh3",
+    "createdAt": "2026-05-30T12:20:25.767Z"
+  }
+]

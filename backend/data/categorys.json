@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Amla",
+    "slug": "amla",
+    "description": "Authentic, nutrient-rich organic Amla candy, juices, and powders for daily wellness.",
+    "_id": "goeq1mcmps4o24m",
+    "createdAt": "2026-05-30T09:07:42.406Z"
+  },
+  {
+    "name": "Mango",
+    "slug": "mango",
+    "description": "Premium handpicked Alphonso mangoes, delicious pulp, sweet pickles, and dried mango slices.",
+    "_id": "gdeaoh2mps4o24p",
+    "createdAt": "2026-05-30T09:07:42.409Z"
+  },
+  {
+    "name": "Modak",
+    "slug": "modak",
+    "description": "Traditional and gourmet Indian sweets including Ukadiche Modak, dry fruit, chocolate, and Kesar flavors.",
+    "_id": "bgsn9dkmps4o24r",
+    "createdAt": "2026-05-30T09:07:42.411Z"
+  },
+  {
+    "name": "Fruit Jam",
+    "slug": "fruit-jam",
+    "description": "Delectable fruit preserves, jams, and marmalades made from real, sun-ripened berries and citrus fruits.",
+    "_id": "jlv3imqmps4o24s",
+    "createdAt": "2026-05-30T09:07:42.412Z"
+  }
+]

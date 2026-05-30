@@ -1,0 +1,158 @@
+const Festival = require('../models/Festival');
+
+const seedFestivals = async () => {
+  try {
+    const count = await Festival.countDocuments();
+    if (count > 0) {
+      console.log('ℹ️ Festival campaigns already seeded.');
+      return;
+    }
+
+    console.log('🌱 Seeding default festival campaigns...');
+    const defaultFestivals = [
+      {
+        name: 'Mango Season',
+        key: 'mango-season',
+        description: 'Experience the taste of pure tropical paradise! Indulge in the finest Devgad Hapus Alphonso products and handmade jams.',
+        startDate: new Date('2026-05-01T00:00:00.000Z'),
+        endDate: new Date('2026-06-25T23:59:59.000Z'), // Active for current date 2026-05-30
+        bannerImage: 'https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=1200&q=80',
+        theme: {
+          primaryColor: '#F59E0B',
+          secondaryColor: '#EA580C',
+          textColor: '#78350F',
+          bgColor: '#FEF9C3',
+          borderColor: '#FEF08A',
+          badgeBg: '#FEF9C3',
+          badgeText: '#854D0E',
+          badgeLabel: '🥭 Seasonal Special'
+        },
+        featuredProducts: ['Alphonso Mango Juice ( Aam Rass )', 'Mango Pulp', 'Mango Pickle', 'Dried Mango Slices'],
+        offers: [
+          { title: '15% Off Mango Products', type: 'discount', value: 15 },
+          { title: 'Buy 2 Get 1 Free on Slices', type: 'b2g1' },
+          { title: 'Free Shipping over ₹500', type: 'free-shipping' }
+        ],
+        giftBoxes: [
+          {
+            name: 'Mango Celebration Box',
+            price: 699,
+            contents: ['Mango Pulp', 'Mixed Fruit Jam', 'Dried Mango Slices'],
+            description: 'Rich Mango Pulp, natural Fruit Jam, and sun-dried Mango Slices packaged in a golden-yellow artisanal gift sleeve.',
+            image: 'https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&w=600&q=80'
+          }
+        ],
+        analytics: { revenue: 0, orderCount: 0, views: 0, conversions: 0 }
+      },
+      {
+        name: 'Ganesh Chaturthi',
+        key: 'ganesh-chaturthi',
+        description: 'Welcome Lord Ganesha with our specially curated traditional Modaks and premium festive gift boxes.',
+        startDate: new Date('2026-08-10T00:00:00.000Z'),
+        endDate: new Date('2026-08-30T23:59:59.000Z'), // Upcoming
+        bannerImage: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80',
+        theme: {
+          primaryColor: '#EA580C',
+          secondaryColor: '#D97706',
+          textColor: '#7C2D12',
+          bgColor: '#FFEDD5',
+          borderColor: '#FED7AA',
+          badgeBg: '#FFEDD5',
+          badgeText: '#9A3412',
+          badgeLabel: '⭐ Ganesh Chaturthi Bestseller'
+        },
+        featuredProducts: ['Dry Fruit Modak', 'Chocolate Modak', 'Ukadiche Modak', 'Kesar Modak'],
+        offers: [
+          { title: '20% Off Dry Fruit Modak', type: 'discount', value: 20 },
+          { title: 'Buy 2 Get 1 Free on Steamed Modak', type: 'b2g1' },
+          { title: 'Free Saffron Greeting Card', type: 'freebie' }
+        ],
+        giftBoxes: [
+          {
+            name: 'Ganesh Chaturthi Box',
+            price: 799,
+            contents: ['Dry Fruit Modak', 'Kesar Modak', 'Premium Packaging'],
+            description: 'A holy collection of rich mawa Kesar Modaks and sugar-free Dry Fruit Modaks in a custom saffron gold box.',
+            image: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80'
+          }
+        ],
+        analytics: { revenue: 0, orderCount: 0, views: 0, conversions: 0 }
+      },
+      {
+        name: 'Diwali Celebration',
+        key: 'diwali',
+        description: 'Illuminate your homes with health and happiness. Gift your loved ones our signature wellness and dry fruit packs.',
+        startDate: new Date('2026-10-15T00:00:00.000Z'),
+        endDate: new Date('2026-11-15T23:59:59.000Z'), // Upcoming
+        bannerImage: 'https://images.unsplash.com/photo-1547900596-f67f24388742?auto=format&fit=crop&w=1200&q=80',
+        theme: {
+          primaryColor: '#DC2626',
+          secondaryColor: '#D97706',
+          textColor: '#7F1D1D',
+          bgColor: '#FEF2F2',
+          borderColor: '#FEE2E2',
+          badgeBg: '#FEE2E2',
+          badgeText: '#991B1B',
+          badgeLabel: '🪔 Diwali Special'
+        },
+        featuredProducts: ['Dry Fruit Modak', 'Kesar Modak', 'Amla Juice', 'Mixed Fruit Jam'],
+        offers: [
+          { title: 'Flat ₹150 Off Gift Boxes', type: 'flat-discount', value: 150 },
+          { title: 'Free Gold greeting card', type: 'freebie' }
+        ],
+        giftBoxes: [
+          {
+            name: 'Diwali Wellness Box',
+            price: 999,
+            contents: ['Amla Juice', 'Mixed Fruit Jam', 'Dry Fruit Modak'],
+            description: 'A balanced box for health and celebration, combining organic Amla Juice, premium Jam, and rich sugar-free Modaks.',
+            image: 'https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&w=600&q=80'
+          }
+        ],
+        analytics: { revenue: 0, orderCount: 0, views: 0, conversions: 0 }
+      },
+      {
+        name: 'Winter Wellness Season',
+        key: 'winter-wellness',
+        description: 'Protect your family\'s health this winter with our pure organic Amla extracts and immunity-boosting candies.',
+        startDate: new Date('2026-11-20T00:00:00.000Z'),
+        endDate: new Date('2027-02-15T23:59:59.000Z'), // Upcoming
+        bannerImage: 'https://images.unsplash.com/photo-1543459176-6585198d41ad?auto=format&fit=crop&w=1200&q=80',
+        theme: {
+          primaryColor: '#059669',
+          secondaryColor: '#0D9488',
+          textColor: '#064E3B',
+          bgColor: '#D1FAE5',
+          borderColor: '#A7F3D0',
+          badgeBg: '#D1FAE5',
+          badgeText: '#047857',
+          badgeLabel: '🍋 Immunity Booster Collection'
+        },
+        featuredProducts: ['Amla Juice', 'Amla Powder', 'Amla Candy', 'Dried Amla'],
+        offers: [
+          { title: '10% Off Amla Juice Pack', type: 'discount', value: 10 },
+          { title: 'Free Shipping on immunity bundles', type: 'free-shipping' }
+        ],
+        giftBoxes: [
+          {
+            name: 'Diwali Wellness Box',
+            price: 999,
+            contents: ['Amla Juice', 'Mixed Fruit Jam', 'Dry Fruit Modak'],
+            description: 'A balanced box for health and celebration, combining organic Amla Juice, premium Jam, and rich sugar-free Modaks.',
+            image: 'https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&w=600&q=80'
+          }
+        ],
+        analytics: { revenue: 0, orderCount: 0, views: 0, conversions: 0 }
+      }
+    ];
+
+    for (const f of defaultFestivals) {
+      await Festival.create(f);
+    }
+    console.log(`🎉 Successfully seeded ${defaultFestivals.length} default campaigns.`);
+  } catch (error) {
+    console.error('❌ Error seeding default festival campaigns:', error.message);
+  }
+};
+
+module.exports = seedFestivals;

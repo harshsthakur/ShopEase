@@ -1,0 +1,87 @@
+[
+  {
+    "user": "r4v2nvfmpsbjwh3",
+    "orderItems": [
+      {
+        "product": "cqn3wrpmps4o24v",
+        "name": "Amla Juice",
+        "qty": 1,
+        "image": "http://localhost:5000/uploads/product-1780135462824.png",
+        "price": 150
+      }
+    ],
+    "shippingAddress": {
+      "name": "choi",
+      "email": "choiensiok@gmail.com",
+      "phone": "+915586595710",
+      "address": "12 nayra",
+      "city": "ohaio",
+      "postalCode": "411236",
+      "country": "India"
+    },
+    "totalPrice": 162,
+    "isPaid": true,
+    "paidAt": "2026-05-30T16:15:08.775Z",
+    "status": "Delivered",
+    "_id": "j5dp2bimpsjxqzs",
+    "createdAt": "2026-05-30T16:15:08.776Z",
+    "isDelivered": true,
+    "deliveredAt": "2026-05-30T16:19:19.400Z"
+  },
+  {
+    "user": "r4v2nvfmpsbjwh3",
+    "orderItems": [
+      {
+        "product": "o6tnu0bmps4o25o",
+        "name": "Chocolate Modak",
+        "qty": 4,
+        "image": "http://localhost:5000/uploads/product-1780137267709.jpg",
+        "price": 75
+      }
+    ],
+    "shippingAddress": {
+      "name": "choi",
+      "email": "choiensiok@gmail.com",
+      "phone": "+915656565656",
+      "address": "12 nayra",
+      "city": "ohaio",
+      "postalCode": "411236",
+      "country": "India"
+    },
+    "totalPrice": 324,
+    "isPaid": true,
+    "paidAt": "2026-05-30T16:18:29.912Z",
+    "status": "Delivered",
+    "_id": "al3l7tjmpsk226x",
+    "createdAt": "2026-05-30T16:18:29.913Z",
+    "isDelivered": true,
+    "deliveredAt": "2026-05-30T16:58:40.075Z"
+  },
+  {
+    "user": "dd18tkqmpsb1c61",
+    "orderItems": [
+      {
+        "product": "ojq5cpjmps4o25e",
+        "name": "Mango Pickle",
+        "qty": 2,
+        "image": "http://localhost:5000/uploads/product-1780136799718.jpg",
+        "price": 600
+      }
+    ],
+    "shippingAddress": {
+      "name": "Harsh",
+      "email": "harsh.sthakur@universal.edu.in",
+      "phone": "+911234567895",
+      "address": "12 nayra",
+      "city": "ohaio",
+      "postalCode": "411236",
+      "country": "India"
+    },
+    "totalPrice": 1296,
+    "isPaid": true,
+    "paidAt": "2026-05-30T17:05:30.680Z",
+    "status": "Packed",
+    "_id": "cbucqgpmpslqipl",
+    "createdAt": "2026-05-30T17:05:30.681Z"
+  }
+]

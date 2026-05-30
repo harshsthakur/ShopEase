@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Amla Juice",
+    "price": 150,
+    "description": "100% pure cold-pressed organic Amla (Indian Gooseberry) juice. High in Vitamin C, boosts immunity, aids digestion, and promotes glowing skin and hair health.",
+    "image": "http://localhost:5000/uploads/product-1780135462824.png",
+    "category": "amla",
+    "stock": 48,
+    "ingredients": "Organic Amla fruit pulp, Water, Honey",
+    "weight": "1000ml",
+    "reviews": [
+      {
+        "_id": "rev1",
+        "name": "Aarav Mehta",
+        "rating": 5,
+        "comment": "Absolutely pure and fresh! Best amla juice I've ever purchased online.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-10T14:32:00Z"
+      }
+    ],
+    "_id": "cqn3wrpmps4o24v",
+    "createdAt": "2026-05-30T09:07:42.415Z"
+  },
+  {
+    "name": "Amla Candy",
+    "price": 500,
+    "description": "Delicious, chewy sun-dried amla bites infused with natural honey and mild spices. A healthy alternative to sugary candies.",
+    "image": "http://localhost:5000/uploads/product-1780135793255.jpg",
+    "category": "amla",
+    "stock": 100,
+    "ingredients": "Dried Amla shreds, Honey, Ginger powder, Cumin",
+    "weight": "250g",
+    "reviews": [
+      {
+        "_id": "rev2",
+        "name": "Priya Sharma",
+        "rating": 4,
+        "comment": "Perfect balance of sweet and sour. My kids love this healthy candy!",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-12T09:12:00Z"
+      }
+    ],
+    "_id": "ki9oeclmps4o24x",
+    "createdAt": "2026-05-30T09:07:42.417Z"
+  },
+  {
+    "name": "Amla Powder",
+    "price": 150,
+    "description": "Fine ground organic dried amlas. Perfect for adding to smoothies, teas, or hair masks for natural conditioning.",
+    "image": "fff",
+    "category": "amla",
+    "stock": 0,
+    "ingredients": "100% Dehydrated Organic Amla powder",
+    "weight": "150g",
+    "reviews": [
+      {
+        "_id": "rev3",
+        "name": "Rohan Das",
+        "rating": 4,
+        "comment": "Very fine powder and smells authentic. Good product.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-15T10:45:00Z"
+      }
+    ],
+    "_id": "2okoc1hmps4o254",
+    "createdAt": "2026-05-30T09:07:42.424Z"
+  },
+  {
+    "name": "Dried Amla",
+    "price": 400,
+    "description": "Salted and spiced dry amla shreds. Great for chewing after meals as a natural digestive aid.",
+    "image": "http://localhost:5000/uploads/product-1780136231876.webp",
+    "category": "amla",
+    "stock": 40,
+    "ingredients": "Sun-dried wild Amla, Rock salt, Black pepper, Lemon juice",
+    "weight": "200g",
+    "reviews": [
+      {
+        "_id": "rev4",
+        "name": "Vikram Singh",
+        "rating": 4,
+        "comment": "Nice digestive taste, slightly salty. Good to keep in pocket.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-18T16:11:00Z"
+      }
+    ],
+    "_id": "dyjqrk2mps4o257",
+    "createdAt": "2026-05-30T09:07:42.427Z"
+  },
+  {
+    "name": "Alphonso Mango Juice ( Aam Rass )",
+    "price": 200,
+    "description": "Premium, naturally-ripened Alphonso mangoes sourced directly from Devgad, India. Famous for their rich aroma, sweet fiberless pulp, and golden skin.",
+    "image": "http://localhost:5000/uploads/product-1780136771330.jpg",
+    "category": "mango",
+    "stock": 30,
+    "ingredients": "Fresh naturally ripened Devgad Alphonso Mangoes",
+    "weight": "250 ml",
+    "reviews": [
+      {
+        "_id": "rev5",
+        "name": "Ananya Sen",
+        "rating": 5,
+        "comment": "The smell filled the entire room! Extremely sweet, rich, and juicy. True Devgad Hapus.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-20T18:24:00Z"
+      }
+    ],
+    "_id": "9ldgomdmps4o259",
+    "createdAt": "2026-05-30T09:07:42.429Z"
+  },
+  {
+    "name": "Mango Pulp",
+    "price": 1000,
+    "description": "Freshly prepared, thick, sweet mango pulp made with real Alphonso mangoes. Free from artificial colors, flavors, or chemical preservatives.",
+    "image": "https://images.unsplash.com/photo-1546173152-318e7b25572c?auto=format&fit=crop&w=600&q=80",
+    "category": "mango",
+    "stock": 0,
+    "ingredients": "Alphonso Mango pulp (95%), Organic sugar syrup, Cardamom",
+    "weight": "850g",
+    "reviews": [
+      {
+        "_id": "rev6",
+        "name": "Kabir Joshi",
+        "rating": 4,
+        "comment": "Deliciously thick and natural! Tastes exactly like freshly pureed mangoes.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-21T11:30:00Z"
+      }
+    ],
+    "_id": "0w9pzurmps4o25c",
+    "createdAt": "2026-05-30T09:07:42.432Z"
+  },
+  {
+    "name": "Mango Pickle",
+    "price": 600,
+    "description": "Authentic home-style raw mango pickle prepared with cold-pressed mustard oil and an aromatic blend of traditional Indian spices.",
+    "image": "http://localhost:5000/uploads/product-1780136799718.jpg",
+    "category": "mango",
+    "stock": 77,
+    "ingredients": "Raw Mango slices, Cold-pressed mustard oil, Fennel seeds, Fenugreek, Turmeric, Red chili powder, Salt",
+    "weight": "400g",
+    "reviews": [
+      {
+        "_id": "rev7",
+        "name": "Siddharth Rao",
+        "rating": 4,
+        "comment": "Tastes like the pickle my grandmother makes. Very spicy and oil is high quality.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-22T08:15:00Z"
+      }
+    ],
+    "_id": "ojq5cpjmps4o25e",
+    "createdAt": "2026-05-30T09:07:42.434Z"
+  },
+  {
+    "name": "Dried Mango Slices",
+    "price": 50,
+    "description": "Perfectly sliced dried mangoes. Chewy, sweet, and tangy healthy snack to satisfy your mango cravings all year round.",
+    "image": "http://localhost:5000/uploads/product-1780136895224.jpg",
+    "category": "mango",
+    "stock": 90,
+    "ingredients": "Dehydrated organic Mango slices",
+    "weight": "150g",
+    "reviews": [
+      {
+        "_id": "rev8",
+        "name": "Neha Gupta",
+        "rating": 4,
+        "comment": "Great healthy snack for travel. Not too sweet, which I like.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-23T14:40:00Z"
+      }
+    ],
+    "_id": "0uicxm9mps4o25i",
+    "createdAt": "2026-05-30T09:07:42.438Z"
+  },
+  {
+    "name": "Dry Fruit Modak",
+    "price": 30,
+    "description": "Premium healthy modaks crafted from dates, figs, almonds, cashews, and pistachios. No added sugar or artificial sweeteners.",
+    "image": "http://localhost:5000/uploads/product-1780138059888.jpg",
+    "category": "modak",
+    "stock": 16,
+    "ingredients": "Dates, Dried Figs, Almonds, Cashews, Pistachios, Cardamom, Ghee",
+    "weight": "1",
+    "reviews": [
+      {
+        "_id": "rev9",
+        "name": "Meera Nair",
+        "rating": 5,
+        "comment": "Highly recommended for festivals. Guilt-free sweet option and tastes premium.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-24T12:00:00Z"
+      }
+    ],
+    "_id": "1htfld3mps4o25l",
+    "createdAt": "2026-05-30T09:07:42.441Z"
+  },
+  {
+    "name": "Chocolate Modak",
+    "price": 75,
+    "description": "A modern twist on the classic sweet! Premium dark and milk chocolate modaks filled with a rich chocolate hazelnut ganache.",
+    "image": "http://localhost:5000/uploads/product-1780137267709.jpg",
+    "category": "modak",
+    "stock": 0,
+    "ingredients": "Dark chocolate, Milk chocolate, Roasted Hazelnuts, Cocoa butter, Heavy cream",
+    "weight": "1",
+    "reviews": [
+      {
+        "_id": "rev10",
+        "name": "Dev Patel",
+        "rating": 5,
+        "comment": "Innovative and delicious! The hazelnut filling is out of this world.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-25T15:20:00Z"
+      }
+    ],
+    "_id": "o6tnu0bmps4o25o",
+    "createdAt": "2026-05-30T09:07:42.444Z"
+  },
+  {
+    "name": "Ukadiche Modak",
+    "price": 25,
+    "description": "Traditional steamed rice-flour dumplings stuffed with fresh grated coconut and organic jaggery, scented with cardamom. Made fresh daily.",
+    "image": "http://localhost:5000/uploads/product-1780137090015.jpg",
+    "category": "modak",
+    "stock": 20,
+    "ingredients": "Rice flour, Fresh grated coconut, Organic jaggery, Cardamom, Nutmeg, Pure Ghee",
+    "weight": "8 Units (Box)",
+    "reviews": [
+      {
+        "_id": "rev11",
+        "name": "Aditya Kulkarni",
+        "rating": 4,
+        "comment": "Tastes super authentic. Just warm it slightly before eating for best flavor.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-26T17:10:00Z"
+      }
+    ],
+    "_id": "dq5thhjmps4o25q",
+    "createdAt": "2026-05-30T09:07:42.446Z"
+  },
+  {
+    "name": "Kesar Modak",
+    "price": 40,
+    "description": "Rich, melt-in-the-mouth mawa modaks infused with premium Kashmiri saffron (Kesar) and garnished with pure silver leaf (vark).",
+    "image": "http://localhost:5000/uploads/product-1780137156092.jpg",
+    "category": "modak",
+    "stock": 10,
+    "ingredients": "Fresh Milk Mawa (Khoya), Kashmiri Saffron, Cardamom, Organic Sugar, Silver Leaf",
+    "weight": "400g (Box of 12)",
+    "reviews": [
+      {
+        "_id": "rev12",
+        "name": "Shreya Ghoshal",
+        "rating": 4,
+        "comment": "Beautiful presentation with the silver foil, Saffron flavor is very strong.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-27T10:05:00Z"
+      }
+    ],
+    "_id": "cmo0bcrmps4o25u",
+    "createdAt": "2026-05-30T09:07:42.450Z"
+  },
+  {
+    "name": "Mixed Fruit Jam",
+    "price": 200,
+    "description": "Indulge in our Mixed Fruit Jam, a perfect blend of fresh apples, grapes, pineapples, papayas, and oranges. Sourced from high-altitude orchards, it has a rich fruity aroma and smooth texture.",
+    "image": "http://localhost:5000/uploads/product-1780138418102.jpg",
+    "category": "fruit-jam",
+    "stock": 50,
+    "ingredients": "Mixed Fruit Pulp (Apple, Pineapple, Grape, Papaya, Orange), Organic Sugar, Fruit Pectin, Citric Acid",
+    "weight": "340g",
+    "reviews": [
+      {
+        "_id": "rev13",
+        "name": "Amit Shah",
+        "rating": 5,
+        "comment": "Very natural flavor, not overly sugary. Perfect on morning toast!",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-28T14:32:00Z"
+      }
+    ],
+    "_id": "dohnygmmps4o25x",
+    "createdAt": "2026-05-30T09:07:42.453Z"
+  },
+  {
+    "name": "Strawberry Jam",
+    "price": 300,
+    "description": "Premium sweet jam prepared from fresh, sun-ripened organic strawberries. Bursting with chunks of real strawberries and rich berry flavour.",
+    "image": "http://localhost:5000/uploads/product-1780138785684.jpg",
+    "category": "fruit-jam",
+    "stock": 45,
+    "ingredients": "Organic Strawberries, Sugar, Fruit Pectin, Citric Acid",
+    "weight": "340g",
+    "reviews": [
+      {
+        "_id": "rev14",
+        "name": "Riya Sen",
+        "rating": 5,
+        "comment": "Tastes like fresh strawberries. Outstanding texture and quality.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-28T16:11:00Z"
+      }
+    ],
+    "_id": "zj3rgftmps4o260",
+    "createdAt": "2026-05-30T09:07:42.456Z"
+  },
+  {
+    "name": "Mango Jam",
+    "price": 200,
+    "description": "Rich tropical jam made from fresh Devgad Alphonso mango pulp. Sweet, smooth, and full of pure mango essence.",
+    "image": "http://localhost:5000/uploads/product-1780138352185.jpg",
+    "category": "fruit-jam",
+    "stock": 60,
+    "ingredients": "Alphonso Mango Pulp, Sugar, Pectin, Citric Acid",
+    "weight": "340g",
+    "reviews": [
+      {
+        "_id": "rev15",
+        "name": "Dinesh Kartik",
+        "rating": 4,
+        "comment": "Unique tropical jam. If you like Alphonso, you will love this.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-29T10:45:00Z"
+      }
+    ],
+    "_id": "zf7sweomps4o263",
+    "createdAt": "2026-05-30T09:07:42.459Z"
+  },
+  {
+    "name": "Pineapple Jam",
+    "price": 250,
+    "description": "Tangy and sweet jam crafted from fresh juicy pineapples. Excellent spread for breads, biscuits, and pancakes.",
+    "image": "http://localhost:5000/uploads/product-1780138518896.jpg",
+    "category": "fruit-jam",
+    "stock": 34,
+    "ingredients": "Juicy Pineapple Pulp, Sugar, Pectin, Citric Acid",
+    "weight": "340g",
+    "reviews": [
+      {
+        "_id": "rev16",
+        "name": "Pooja Hegde",
+        "rating": 4,
+        "comment": "Very nice sweet and sour tang. Perfect for baking as well.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-29T12:00:00Z"
+      }
+    ],
+    "_id": "rdqwg6gmps4o266",
+    "createdAt": "2026-05-30T09:07:42.462Z"
+  },
+  {
+    "name": "Papaya Jam",
+    "price": 200,
+    "description": "indian papaya jam",
+    "image": "http://localhost:5000/uploads/product-1780138533650.jpg",
+    "category": "fruit-jam",
+    "stock": 40,
+    "ingredients": "Orange Peel strips, Orange juice, Sugar, Fruit Pectin, Citric Acid",
+    "weight": "340g",
+    "reviews": [
+      {
+        "_id": "rev17",
+        "name": "Karan Johar",
+        "rating": 4,
+        "comment": "Excellent bitter-sweet balance. The peel strips are perfectly cut.",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-29T14:40:00Z"
+      }
+    ],
+    "_id": "k9aaclmmps4o269",
+    "createdAt": "2026-05-30T09:07:42.465Z"
+  },
+  {
+    "name": "Mixed Berry Jam",
+    "price": 350,
+    "description": "Gourmet jam combining raspberries, blueberries, and blackberries. Deep color, rich forest berry aroma, and sweet-tart flavor.",
+    "image": "http://localhost:5000/uploads/product-1780138383901.jpg",
+    "category": "fruit-jam",
+    "stock": 29,
+    "ingredients": "Forest Raspberries, Blueberries, Blackberries, Sugar, Pectin, Citric Acid",
+    "weight": "340g",
+    "reviews": [
+      {
+        "_id": "rev18",
+        "name": "Varun Dhawan",
+        "rating": 4,
+        "comment": "Premium berry combination. Very delicious!",
+        "user": "sxbu8q2mps4o24e",
+        "createdAt": "2026-05-29T16:11:00Z"
+      }
+    ],
+    "_id": "e2jr2usmps4o26c",
+    "createdAt": "2026-05-30T09:07:42.468Z"
+  }
+]

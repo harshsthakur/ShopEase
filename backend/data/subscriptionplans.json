@@ -1,0 +1,83 @@
+[
+  {
+    "planId": "immunity-booster",
+    "name": "Immunity Booster Box",
+    "price": 499,
+    "includes": [
+      "Amla Juice",
+      "Amla Candy",
+      "Amla Powder",
+      "Seasonal Health Product"
+    ],
+    "benefits": [
+      "Rich in Vitamin C",
+      "Supports Immunity",
+      "Daily Wellness"
+    ],
+    "isActive": true,
+    "color": "emerald",
+    "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?auto=format&fit=crop&w=600&q=80",
+    "_id": "s08z4vsmpslv7zu",
+    "createdAt": "2026-05-30T17:09:10.074Z"
+  },
+  {
+    "planId": "mango-lover",
+    "name": "Mango Lover Box",
+    "price": 699,
+    "includes": [
+      "Alphonso Mango Products",
+      "Mango Pulp",
+      "Mango Jam",
+      "Seasonal Mango Special"
+    ],
+    "benefits": [
+      "Seasonal Freshness",
+      "Premium Mango Collection"
+    ],
+    "isActive": true,
+    "color": "amber",
+    "image": "https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=600&q=80",
+    "_id": "6uedq6vmpslv802",
+    "createdAt": "2026-05-30T17:09:10.082Z"
+  },
+  {
+    "planId": "traditional-modak",
+    "name": "Traditional Modak Box",
+    "price": 599,
+    "includes": [
+      "Ukadiche Modak",
+      "Dry Fruit Modak",
+      "Chocolate Modak",
+      "Festival Special Item"
+    ],
+    "benefits": [
+      "Traditional Taste",
+      "Festival Collection"
+    ],
+    "isActive": true,
+    "color": "orange",
+    "image": "https://images.unsplash.com/photo-1605197585662-763f96f0bfbb?auto=format&fit=crop&w=600&q=80",
+    "_id": "gyg5tlqmpslv807",
+    "createdAt": "2026-05-30T17:09:10.087Z"
+  },
+  {
+    "planId": "family-combo",
+    "name": "Family Combo Box",
+    "price": 999,
+    "includes": [
+      "Amla Products",
+      "Mango Products",
+      "Fruit Jam",
+      "Modak Collection"
+    ],
+    "benefits": [
+      "Best Value",
+      "Family Pack"
+    ],
+    "isActive": true,
+    "color": "rose",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80",
+    "_id": "71fdxr0mpslv80b",
+    "createdAt": "2026-05-30T17:09:10.091Z"
+  }
+]
